@@ -16,8 +16,8 @@
         tools:layout="@layout/fragment_data"></fragment>
 
     <fragment
-        android:name="com.example.fragment.Fragments.DetailsFragment"
         android:id="@+id/detailFragment"
+        android:name="com.example.fragment.Fragments.DetailsFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="50"
