@@ -1,6 +1,7 @@
 package com.example.fragment.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
 
@@ -8,7 +9,7 @@ import com.example.fragment.Fragments.DataFragment;
 import com.example.fragment.Fragments.DetailsFragment;
 import com.example.fragment.R;
 
-public class MainActivity extends AppCompatActivity implements DataFragment.DataListener {
+public class MainActivity extends FragmentActivity implements DataFragment.DataListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
